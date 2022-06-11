@@ -1,0 +1,40 @@
+/* Start General Header Settings */
+.header{
+    height: 100vh;
+    width: 100%;
+}
+/* End General Header Settings */
+
+/* Start Left Banner */
+.header .head_wrap .head_left{
+    width: 50vw;
+    padding: 8rem 2rem 2rem 7.5rem;
+
+    background-image: url(../img/headerelft.svg);
+}
+
+.header .head_wrap .head_left .text_holder.left .welcome{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 150%;
+    color: rgba(232, 83, 0, 1);
+}
+.header .head_wrap .head_left .text_holder.left .title{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.5rem;
+    line-height: 120%;
+}
+/* End Left Banner */
+
+/* Start Right Banner */
+.header .head_wrap .head_right{
+    width: 50vw;
+    background-image: url(../img/headerright.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End Right Banner */

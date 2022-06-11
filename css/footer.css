@@ -4,7 +4,7 @@
   font-family: "IBM Plex Sans";
   font-style: normal;
 
-  padding: 4.25rem 8rem;
+  padding: 4.25rem 7rem;
   background: linear-gradient(
     90.18deg,
     #0d0d0d 0%,
@@ -48,6 +48,10 @@ a {
 
 .footer .upper_wrap .box1.sum {
   margin-bottom: 1.25rem;
+}
+
+.footer .upper_wrap .box1.sum .para{
+    width: 16.5rem;
 }
 
 .footer .upper_wrap .box1.info .ig {
