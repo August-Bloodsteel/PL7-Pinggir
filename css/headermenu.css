@@ -1,6 +1,6 @@
 .headermenu
 {
-    height: 93.563rem;
+    /* height: 93.563rem; */
     background: linear-gradient(90.18deg, #0D0D0D 0%, rgba(13, 13, 13, 0.85) 100%);
     margin-bottom: 60px;
 }
@@ -14,8 +14,6 @@
     line-height: 150%;
     /* identical to box height, or 48px */
     text-transform: capitalize;
-    text-align: center;
-
     color: #E85300;
 }
 .headermenu .titwrap h2
@@ -70,6 +68,7 @@
     transition: 0.5s;
     height: 34.5rem;
     border-radius: 24px;
+    margin-bottom: 116px;
 }
 /* animasi */
 
@@ -84,6 +83,8 @@
         opacity: 100%;
     }
 }
+
+
 /* end animasi */
 .headermenu .menuproduk .card:hover
 {
@@ -152,4 +153,110 @@
 .headermenu .menuproduk .c-2
 {
     margin-right: 24px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 960px)
+{
+    .headermenu .gmenu-wrap .gmenu
+    {
+        width: 19.5rem;
+        height: 5rem;
+    }
+    .headermenu .gmenu-wrap .gmenu img
+    {
+        border-radius: 12px;
+        width: 19.5rem;
+        height: 5rem;
+    }
+    .headermenu .titwrap .tit
+    {
+        width: 19.5rem;
+    }
+    .headermenu .titwrap .tit h1
+    {
+        margin-top: 64px;
+    }
+    .headermenu .titwrap .tit h2
+    {
+        font-size: 40px;
+        margin-bottom: 32px;
+    }
+    .wrapour .ourmenu
+    {
+        width: 19.5rem;
+    }
+    .wrapour .ourmenu h1
+    {
+
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
+        margin-top: 40px;
+        margin-bottom: 32px;   
+        color:white;
+    }
+    .headermenu .menuproduk .card
+    {
+        height: 30.875rem;
+        margin-bottom: 0px;
+        width: 19.5rem;
+    }
+    .headermenu .menuproduk .c-1
+    {
+        margin-right: 0px;
+        margin-bottom: 32px;
+    }
+    .headermenu .menuproduk .c-2
+    {
+        margin-right: 0px;
+        margin-bottom: 32px;
+    }
+    .headermenu .menuproduk .c-3
+    {
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    .headermenu .menuproduk .card h5
+    {
+        font-size: 20px;
+    }
+    .headermenu .menuproduk .card p
+    {
+        display: inline-block;
+        font-size: 12px;
+    }
+    .headermenu .menuproduk .card h3
+    {
+        font-size: 32px;
+        margin-top: 9.5px;
+        margin-bottom: 26.75px;
+    }
+    .headermenu .menuproduk
+    {
+        align-items: center;
+    }
+
+    .headermenu .menuproduk .card:hover
+    {
+        height: 30.875rem;
+        background: #2B2B2B;
+        box-shadow: 16px 16px 48px rgba(0, 0, 0, 0.16);
+    }
+    
+    .headermenu .menuproduk .card:hover p 
+    {
+        display: inline-block;
+        animation: fade 0.5s forwards;
+    }
+    .headermenu .menuproduk .card:hover h3
+    {
+        display: inline-block;
+        animation: fade 0.5s forwards;
+        margin-top: 0px;
+    }
 }
