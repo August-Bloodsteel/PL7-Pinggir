@@ -2,7 +2,7 @@
 {
     /* height: 93.563rem; */
     background: linear-gradient(90.18deg, #0D0D0D 0%, rgba(13, 13, 13, 0.85) 100%);
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 
 .headermenu .titwrap h1
@@ -32,7 +32,6 @@
 
 .headermenu .gmenu-wrap .gmenu
 {
-    background-color: aqua; 
     height: 15rem;
     border-radius: 24px;
     width: 75rem;
