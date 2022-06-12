@@ -1,16 +1,35 @@
 /* Start General Header Settings */
 .header{
     height: 100vh;
-    width: 100%;
 }
 /* End General Header Settings */
 
 /* Start Left Banner */
+.header .head_wrap.atas{
+    margin-bottom: 1rem;
+}
 .header .head_wrap .head_left{
-    width: 50vw;
     padding: 8rem 2rem 2rem 7.5rem;
+    background: linear-gradient(-220.57deg, #0D0D0D 0%, #313131 100.02%);
+    border-radius: 0px 0px 24px 24px;
+}
 
-    background-image: url(../img/headerelft.svg);
+.header .head_wrap .head_left .img_holder.left{
+    left: 0%;
+    top: 0%;
+}
+
+.header .head_wrap .head_left .img_holder.left img{
+    height: 100%;
+}
+
+.header .head_wrap .head_left .img_holder.top{
+    top: 0%;
+    left: 70%;
+}
+
+.header .head_wrap .head_left .text_holder.left{
+    z-index: 1;
 }
 
 .header .head_wrap .head_left .text_holder.left .welcome{
@@ -27,14 +46,78 @@
     font-weight: 600;
     font-size: 4.5rem;
     line-height: 120%;
+    color: white;
 }
 /* End Left Banner */
 
 /* Start Right Banner */
 .header .head_wrap .head_right{
-    width: 50vw;
     background-image: url(../img/headerright.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    z-index: -2;
+    border-radius: 0 0 24px 24px;
 }
 /* End Right Banner */
+
+/* Start Bot Left */
+.header .head_wrap.bawah .bot_left{
+    padding: 0rem 2rem 1px 7.5rem;
+}
+
+.header .head_wrap.bawah .bot_left .para{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(41, 38, 33, 0.75);
+
+    margin-bottom: 3.8rem;
+
+}
+
+.header .head_wrap.bawah .bot_left .btn_learn{
+    /* margin-bottom: 2rem; */
+}
+
+.header .head_wrap.bawah .bot_left .btn_learn .learn{
+    border: 0px;
+    border-radius: 2rem;
+    padding: 0.75rem 1.25rem;
+    text-decoration: none;
+    background: linear-gradient(96.41deg, #E60000 0%, #E85300 100%);
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+    transition: 0.5s;
+}
+
+.header .head_wrap.bawah .bot_left .btn_learn .learn:hover{
+    padding: 0.75rem 2.75rem;
+}
+
+.header .head_wrap.bawah .bot_left .btn_learn .learn .iconify{
+    padding-right: 0.5rem;
+}
+/* End Bot Left */
+
+/* Start Bot Right */
+.header .head_wrap.bawah .bot_right{
+    /* background-image: url(../img/headerbotright.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+
+}
+
+.header .head_wrap.bawah .bot_right img{
+    width: 100%;
+}
+/* End Bot Right */
