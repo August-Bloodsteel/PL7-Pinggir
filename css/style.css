@@ -12,6 +12,10 @@
 
 @import url(./footer.css);
 
+@import url(./headermenu.css);
+
+@import url(./contact.css);
+
 html,body{
     margin: 0%;
     box-sizing: border-box;
