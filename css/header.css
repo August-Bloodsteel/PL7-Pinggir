@@ -7,6 +7,7 @@
 /* Start Left Banner */
 .header .head_wrap.atas{
     margin-bottom: 1rem;
+    height: 70vh;
 }
 .header .head_wrap .head_left{
     padding: 8rem 2rem 2rem 7.5rem;
@@ -63,23 +64,16 @@
 
 /* Start Bot Left */
 .header .head_wrap.bawah .bot_left{
-    padding: 0rem 2rem 1px 7.5rem;
+    padding: 0rem 2rem 0.5rem 7.5rem;
 }
 
 .header .head_wrap.bawah .bot_left .para{
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 150%;
     color: rgba(41, 38, 33, 0.75);
-
-    margin-bottom: 3.8rem;
-
-}
-
-.header .head_wrap.bawah .bot_left .btn_learn{
-    /* margin-bottom: 2rem; */
 }
 
 .header .head_wrap.bawah .bot_left .btn_learn .learn{
@@ -109,14 +103,6 @@
 /* End Bot Left */
 
 /* Start Bot Right */
-.header .head_wrap.bawah .bot_right{
-    /* background-image: url(../img/headerbotright.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
-
-
-}
-
 .header .head_wrap.bawah .bot_right img{
     width: 100%;
 }
