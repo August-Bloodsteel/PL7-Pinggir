@@ -1,0 +1,26 @@
+/* Start General Testi */
+.testimoni p,h1{
+    margin: 0;
+}
+/* End General Testi */
+
+/* Start Carousel */
+.slider{
+    margin-bottom: 1.25rem;
+}
+
+.slider .owl-item.active.center .slider-card{
+    transform: scale(1);
+}
+
+.slider-card{
+    background-color: blueviolet;
+    transform: scale(0.5);
+    transition: all 0.5s;
+}
+
+.owl-carousel .owl-prev{
+    position: absolute;
+    top: calc(50%);
+}
+/* End Carousel */

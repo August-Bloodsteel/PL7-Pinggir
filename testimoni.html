@@ -1,0 +1,78 @@
+<!-- =========================== Start Testimoni Area =========================== -->
+<section class="testimoni" id="testimoni">
+    <div id="carousel_wrap col-12"> <!--Anggap Ini Container-->
+
+        <h1>Testimoni</h1>
+        <h1>Our Happy Customer</h1>
+
+        <div class="slider">
+            <div class="owl-carousel d-flex justify-content-center position-relative">
+
+                <div class="slider-card">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="./img/orang1.png" alt="Joanna">
+                    </div>
+
+                    <img class="stars" src="./img/stars.png" alt="bintang">
+                    <p class="testi_para">Suasana tempatnya nyaman banget dan cocok untuk nongkrong bareng teman atau kumpul keluarga. Makanan dan minumannya juga enak!</p>
+                    <h1 class="testi_name">Joanna</h1>
+                    <h1 class="testi_jab">Model & Actress</h1>
+                </div>
+
+                <div class="slider-card">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="./img/orang2.png" alt="Joanna">
+                    </div>
+
+                    <img class="stars" src="./img/stars.png" alt="bintang">
+                    <p class="testi_para">Suasana tempatnya nyaman banget dan cocok untuk nongkrong bareng teman atau kumpul keluarga. Makanan dan minumannya juga enak!</p>
+                    <h1 class="testi_name">Joanna</h1>
+                    <h1 class="testi_jab">Model & Actress</h1>
+                </div>
+
+                <div class="slider-card">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img src="./img/orang3.png" alt="Joanna">
+                    </div>
+
+                    <img class="stars" src="./img/stars.png" alt="bintang">
+                    <p class="testi_para">Suasana tempatnya nyaman banget dan cocok untuk nongkrong bareng teman atau kumpul keluarga. Makanan dan minumannya juga enak!</p>
+                    <h1 class="testi_name">Joanna</h1>
+                    <h1 class="testi_jab">Model & Actress</h1>
+                </div>
+            </div>
+
+            <div id="navhere"></div>
+        </div>
+
+    </div>
+</section>
+
+<script>
+$(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    center:true,
+    nav:true,
+    navContainer:'#navhere',
+    navText:[
+    "<i class='iconify' data-icon='cil:arrow-circle-left'></i>",
+    "<i class='iconify' data-icon='cil:arrow-circle-right'></i>"
+    ],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+    });
+});
+</script>
+<!-- =========================== End Testimoni Area =========================== -->
