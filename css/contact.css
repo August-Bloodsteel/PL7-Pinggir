@@ -212,6 +212,10 @@
     bottom: 2px;
     margin-right: 8px;
 }
+.contact .mapwrap .map .form .book a
+{
+    text-decoration: none;
+}
 .contact .mapwrap .map .form .book a span
 {
     font-family: 'Open Sans';
