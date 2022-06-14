@@ -1,3 +1,8 @@
+
+========navbar=========
+1 https://gdurl.com/KvG9
+
+
 =========Produk Menu=============
 
 ========food=========
@@ -14,3 +19,6 @@
 1 https://gdurl.com/KTJS
 2 https://gdurl.com/bqdy
 3 https://gdurl.com/KMYB
+
+=========contact=============
+1 https://gdurl.com/cVZr
