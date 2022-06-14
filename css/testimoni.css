@@ -1,26 +1,175 @@
 /* Start General Testi */
-.testimoni p,h1{
+.testimoni p,h1,h2{
     margin: 0;
 }
 /* End General Testi */
+
+/* Title Atas */
+.carousel_wrap h1.head1{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 150%;
+    text-align: center;
+    color: #E85300;
+
+    margin-top: 3.75rem;
+}
+
+.carousel_wrap h1.head2{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 120%;
+    text-align: center;
+    color: rgba(13, 13, 13, 0.75);
+
+    margin-bottom: 5rem;
+}
 
 /* Start Carousel */
 .slider{
     margin-bottom: 1.25rem;
 }
 
+/* Slider Yang Aktif */
 .slider .owl-item.active.center .slider-card{
     transform: scale(1);
 }
 
+/* Slider Yang Mati */
 .slider-card{
-    background-color: blueviolet;
     transform: scale(0.5);
-    transition: all 0.5s;
+    transition: 0.5s;
 }
 
-.owl-carousel .owl-prev{
-    position: absolute;
-    top: calc(50%);
+/* Icon Bintang */
+.slider-card .star .iconify{
+    font-size: 0rem;
+    margin: 2rem 0.25rem 1rem;
 }
+
+.slider .owl-item.active.center .slider-card .star .iconify{
+    font-size: 1.5rem;
+    animation: nengok 2s;
+}
+
+/* Paragraph */
+.slider-card .testi_para{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0rem;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(41, 38, 33, 0.75);
+
+    width: 24rem;
+    margin: 0;
+}
+
+.slider .owl-item.active.center .slider-card .testi_para{
+    animation: appear 1s;
+    font-size: 1.25rem;
+}
+
+/* Nama */
+.slider-card .testi_name{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 150%;
+    color: #E85300;
+}
+
+.slider .owl-item.active.center .slider-card .testi_name{
+    animation: nengok 2s forwards;
+}
+
+/* Jabatan */
+.slider-card .testi_jab{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: rgba(41, 38, 33, 0.75);
+
+    margin-bottom: 3.75rem;
+}
+
+.slider .owl-item.active.center .slider-card .testi_jab{
+    animation: nengok 2s forwards;
+}
+
+/* Navigasi */
+.slider .owl-nav {
+    padding: 0rem 30rem;
+    display: flex;
+    position: absolute;
+    bottom: 31%;
+    z-index: 2;
+}
+
+.slider .owl-nav .owl-prev{
+    border: none;
+    background-color: transparent;
+}
+
+.slider .owl-nav .owl-next{
+    border: none;
+    background-color: transparent;
+}
+
+.slider .owl-nav .owl-next,.owl-prev .iconify{
+    color: #E85300;
+    font-size: 1.5rem;
+}
+/* End Navigasi */
+
+
 /* End Carousel */
+
+/* Animasi */
+
+@keyframes disappear {
+    0%{
+        opacity: 100%;
+        height: auto;
+    }
+    50%{
+        opacity: 0%;
+        height: auto;
+    }
+    100%{
+        opacity: 0%;
+        height: 0px;
+    }
+}
+
+@keyframes nengok {
+    from{
+        opacity: 0%;
+    }
+    to{
+        opacity:100%;
+    }
+}
+
+@keyframes appear{
+    0%{
+        opacity: 0%;
+        font-size: 0rem;
+    }
+    50%{
+        opacity: 0%;
+        font-size: 1.25rem;
+    }
+    100%{
+        opacity: 100%;
+        font-size: 1.25rem;
+    }
+}
