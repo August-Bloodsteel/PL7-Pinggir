@@ -107,11 +107,11 @@
 
 /* Navigasi */
 .slider .owl-nav {
-    padding: 0rem 30rem;
+    padding: 0rem 25rem;
     display: flex;
     position: absolute;
-    bottom: 31%;
-    z-index: 2;
+    bottom: 37%;
+    z-index: 5;
 }
 
 .slider .owl-nav .owl-prev{
