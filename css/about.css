@@ -1,0 +1,158 @@
+.about .titabout .titaboutwrap h1
+{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #E85300;
+    margin-top: 120px;
+}
+.about .titabout .titaboutwrap h2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 120%;
+    color: rgba(13, 13, 13, 0.75);
+    margin-bottom: 75px;
+}
+
+.about .isiabout .isi1 img
+{
+    width: 24rem;
+    height: 16rem;
+}
+.about .isiabout .isi1 h1
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #E85300;
+}
+.about .isiabout .isi1 h2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(41, 38, 33, 0.75);
+    width: 24.063rem;
+    
+}
+
+.about .isiabout .isi1 #isi1
+{
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.about .isiabout .isi1 #isi2
+{
+    margin-right: 24px;
+    height: 35.875rem;
+    margin-bottom: 24px;
+}
+
+.about .isiabout .isi1 #isi5
+{
+    margin-top: 24px;
+}
+
+.about .isiabout .isi1 #takkopi
+{
+    width: 24.6rem;
+    
+}
+
+.about .isiabout  #isi3
+{
+    position: relative;
+    top: 160px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 960px)
+{
+    .about .isiabout
+    {
+        align-items: center;
+    }
+    
+    .about .titabout
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .about .titabout .titaboutwrap
+    {
+        width: 19.5rem;
+    }
+    .about .titabout .titaboutwrap h1
+    {
+        margin-top: 80px;
+        font-size: 20px;
+    }
+    .about .titabout .titaboutwrap h2
+    {
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+    .about .isiabout .isi1 img
+    {
+        width: 19.5rem;
+        height: 13rem;
+    }
+
+    .about .isiabout .isi1 h1
+    {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    .about .isiabout .isi1 h2
+    {
+        font-size: 16px;
+        width: 19.5rem;
+        margin-bottom: 40px;
+    }
+    
+    .about .isiabout .isi1 #isi1
+    {
+        margin-right: 0px;
+        margin-bottom: 24px;
+    }
+    .about .isiabout .isi1 #isi2
+    {
+        margin-right: 0px;
+        width: 19.5rem;
+        height: 13rem;
+    }
+    .about .isiabout .isi1 #isi4
+    {
+        margin-right: 0px;
+        width: 19.5rem;
+        height: 13rem;
+        margin-bottom: 24px;
+    }
+    .about .isiabout .isi1 #isi5
+    {
+        margin-bottom: 24px;
+        margin-top: 0px;
+    }
+    .about .isiabout .isi1 #takkopi
+    {
+        width: 19.5rem;
+        
+    }
+    
+    .about .isiabout  #isi3
+    {
+        position: relative;
+        top: 0px;
+    }
+}

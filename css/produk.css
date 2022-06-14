@@ -1,3 +1,7 @@
+.produk
+{
+    margin-top: 60px;
+}
 .produk .viewall
 {
     width: 14.75rem;
@@ -48,7 +52,6 @@
     font-size: 72px;
     line-height: 120%;
     margin-bottom: 64px;
-    
     color: #FFFFFF;
 }
 .pembungkus-produk .produk .our h2
@@ -59,6 +62,7 @@
     font-size: 32px;
     line-height: 150%;
     color: #E85300;
+    margin-top: 60px;
 }
 
 /* .pembungkus-produk .produk .wrap-tabs .gg ul
@@ -224,6 +228,10 @@
 
 @media only screen and (max-width: 980px)
 {
+    .produk
+    {
+        margin-top: 40px;
+    }
 
     .produk .viewall
     {
