@@ -23,4 +23,9 @@
     position: absolute;
     top: calc(50%);
 }
+
+.testimoni .carousel_wrap .slider .test .iconify
+{
+    display: none;
+}
 /* End Carousel */
