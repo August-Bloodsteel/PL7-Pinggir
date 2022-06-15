@@ -86,7 +86,7 @@
 }
 
 .slider .owl-item.active.center .slider-card .testi_name{
-    animation: nengok 2s forwards;
+    /* animation: nengok 2s forwards; */
 }
 
 /* Jabatan */
@@ -102,7 +102,7 @@
 }
 
 .slider .owl-item.active.center .slider-card .testi_jab{
-    animation: nengok 2s forwards;
+    /* animation: nengok 2s forwards; */
 }
 
 /* Navigasi */
