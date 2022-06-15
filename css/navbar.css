@@ -98,12 +98,11 @@ nav {
     }
   
     .nav-links ul li a {
-      font-family: 'Philosopher';
-      font-style: italic;
-      font-weight: 700;
+      font-family: 'IBM Plex Sans';
+      font-style: normal;
+      font-weight: 600;
       font-size: 24px;
-      line-height: 96%;
-
+      line-height: 120%;
       color: #FFFFFF;
       z-index: 1000;
       color: white;
@@ -111,7 +110,7 @@ nav {
     .nav-links ul li {
       /* /* height: 100vh;
           width: 100vw; */
-      background-color: #116530;;
+      background: linear-gradient(90.18deg, #0D0D0D 0%, #2F2F2F 100%);
       width: 100vw;
       height: 55px;
       display: flex;
@@ -136,7 +135,7 @@ nav {
   
     .nav-links {
       position: absolute;
-      background: #0B4619;
+      background: linear-gradient(90.18deg, #0D0D0D 0%, #2F2F2F 100%);
       height: 2.563rem;
       width: 100vw;
       top: 80px;
@@ -149,6 +148,7 @@ nav {
   
     .nav-links ul li a:hover {
       background: none;
+      color: #E85300;
     }
   }
   
