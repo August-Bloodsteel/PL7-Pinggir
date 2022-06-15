@@ -193,6 +193,10 @@
         padding: 0.75rem 13.5rem;
     }
 
+    .header .head_wrap.bawah .bot_left .btn_learn .learn:hover{
+        padding: 0.75rem 13.5rem;
+    }
+
     .header .head_wrap.bawah .bot_left{
         padding-left: 0;
     }
