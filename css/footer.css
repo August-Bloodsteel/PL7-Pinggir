@@ -170,3 +170,52 @@ a {
 }
 
 /* End Disclaimer */
+
+@media only screen and (max-width:993px) {
+  .footer .upper_wrap .box1.sum .para{
+    width: 30rem;
+  }
+
+  .footer .upper_wrap .box1.info{
+    margin-bottom: 2.5rem;
+  }
+
+  .footer .middle_wrap .kol5 .btn_sub{
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .footer .upper_wrap .box2.time{
+    margin-bottom: 3rem;
+  }
+
+  .footer .upper_wrap .box2.time .hari,.jam{
+    margin-left: 2.5rem;
+  }
+
+  .footer .upper_wrap .box2.place{
+    margin-bottom: 2.5rem;
+  }
+
+  .footer .upper_wrap .box2.place .jalan{
+    margin-left: 2.25rem;
+  }
+
+  .footer .upper_wrap .kol3{
+    margin-bottom: 2.25rem;
+  }
+
+  .footer .upper_wrap .kol4 .ig_feed.f2{
+    margin-bottom: 2.25rem;
+  }
+}
+
+@media only screen and (max-width:577px) {
+  .footer{
+    padding: 2.5rem 1.5rem;
+  }
+
+  .footer .upper_wrap .box1.sum .para{
+    width: 20rem;
+  }
+}
