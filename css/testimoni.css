@@ -11,7 +11,6 @@
     font-weight: 400;
     font-size: 2rem;
     line-height: 150%;
-    text-align: center;
     color: #E85300;
 
     margin-top: 3.75rem;
@@ -23,7 +22,6 @@
     font-weight: 600;
     font-size: 72px;
     line-height: 120%;
-    text-align: center;
     color: rgba(13, 13, 13, 0.75);
 
     margin-bottom: 5rem;
@@ -86,7 +84,7 @@
 }
 
 .slider .owl-item.active.center .slider-card .testi_name{
-    animation: nengok 2s forwards;
+    /* animation: nengok 2s forwards; */
 }
 
 /* Jabatan */
@@ -102,7 +100,7 @@
 }
 
 .slider .owl-item.active.center .slider-card .testi_jab{
-    animation: nengok 2s forwards;
+    /* animation: nengok 2s forwards; */
 }
 
 /* Navigasi */
@@ -178,6 +176,70 @@
     100%{
         opacity: 100%;
         font-size: 1.25rem;
+    }
+}
+<<<<<<< HEAD
+>>>>>>> main
+=======
+
+@media only screen and (max-width:1025px) {
+    .slider .owl-nav {
+        padding: 0rem 17rem;
+        bottom: 43%;
+    }
+}
+
+@media only screen and (max-width:993px){
+    .slider .owl-nav {
+        padding: 0rem 5rem;
+        bottom: 14.5%;
+    }
+}
+
+@media only screen and (max-width:577px){
+    .slider .owl-nav{
+        padding: 0rem 1rem;
+        bottom: 14%;
+    }
+
+    .carousel_wrap h1.head1{
+        font-size: 1.25rem;
+        margin-left: 1.5rem;
+
+    }
+
+    .carousel_wrap h1.head2{
+        font-size: 2.5rem;
+        width: 20rem;
+        margin-left: 1.5rem;
+    }
+
+    .owl-carousel .owl-item img{
+        width: 90%;
+    }
+
+    .slider .owl-item.active.center .slider-card .testi_para{
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    @keyframes appear{
+        0%{
+            opacity: 0%;
+            font-size: 0rem;
+        }
+        50%{
+            opacity: 0%;
+            font-size: 1rem;
+        }
+        100%{
+            opacity: 100%;
+            font-size: 1rem;
+        }
+    }
+
+    .footer .upper_wrap .kol4 .ig_feed img{
+        width: 6rem;
     }
 }
 >>>>>>> main
