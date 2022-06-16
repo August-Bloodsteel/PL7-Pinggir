@@ -141,6 +141,11 @@
     color: #FFFFFF;
     
 }
+.contact .mapwrap .map .form input
+{
+    color-scheme: dark;
+    color: rgba(255, 255, 255, 0.5);
+}
 .contact .mapwrap .map .form input::placeholder
 {
     font-family: 'IBM Plex Sans';
@@ -154,6 +159,7 @@
 {
     border-bottom: 1px solid #E85300;
     caret-color: #E85300;
+    color: white;
 }
 
 .contact .mapwrap .map .form input:focus::-webkit-input-placeholder
