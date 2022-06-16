@@ -34,6 +34,11 @@
     
 <body>
     <!-- =========================== Start Include Content Area =========================== -->
+    <div class="fixed-top preloader" id="preloader">
+        <div class="logo">
+            <img src="./img/preloader.png" alt="">
+        </div>
+    </div>
 
     <div id="navbar"></div>
     <div id="header"></div>
@@ -70,6 +75,13 @@
 
 
     <!-- Custom Script -->
+    <script>
+        $(window).on("load", function()
+        {
+          $("#preloader").fadeOut(2000)
+        })
+      </script>
+
     <script>
         $(function(){
             $("#navbar").load("navbar.html");

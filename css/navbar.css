@@ -1,3 +1,7 @@
+.navbar
+{
+  z-index: 100;
+}
 nav {
     transition: 0.5s;
   }
