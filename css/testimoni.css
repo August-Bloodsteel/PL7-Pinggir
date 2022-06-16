@@ -83,10 +83,6 @@
     color: #E85300;
 }
 
-.slider .owl-item.active.center .slider-card .testi_name{
-    /* animation: nengok 2s forwards; */
-}
-
 /* Jabatan */
 .slider-card .testi_jab{
     font-family: 'IBM Plex Sans';
@@ -99,8 +95,8 @@
     margin-bottom: 3.75rem;
 }
 
-.slider .owl-item.active.center .slider-card .testi_jab{
-    /* animation: nengok 2s forwards; */
+.owl-carousel .owl-item img{
+    transition: 1s;
 }
 
 /* Navigasi */
