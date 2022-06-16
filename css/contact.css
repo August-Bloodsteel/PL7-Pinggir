@@ -153,6 +153,7 @@
 .contact .mapwrap .map .form input:focus 
 {
     border-bottom: 1px solid #E85300;
+    caret-color: #E85300;
 }
 
 .contact .mapwrap .map .form input:focus::-webkit-input-placeholder
