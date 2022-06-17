@@ -1,0 +1,65 @@
+<button class="open-button" onclick="openForm()"><img src="img/wa.svg" alt=""></button>
+
+<div class="chat-popup" id="myForm">
+  <form class="form-container">
+
+    <div class="logo d-flex justify-content-center align-items-center">
+
+     <a onclick="closeForm()"><i class="iconify" data-icon="eva:arrow-ios-back-fill" style="color: white;"></i> </a> 
+      <img src="./img/logochat.png" alt="">
+
+      <div class="titchat">
+        <h1>Pinggir Coffee & Eatery</h1>
+        <h2>Admin</h2>
+      </div>
+
+    </div> 
+
+    <div class="chat d-flex justify-content-center align-items-center">
+        <img src="./img/logochat.png" alt="">
+
+        <div class="kotakchat d-flex justify-content-center align-items-center">
+          <p>Hallo!
+            <br>Selamat datang di Pinggir Coffee & Eatery.
+            <br>
+            <br> Silahkan balas pesan ini jika ada
+            <br>  pertanyaan, tim kami akan sangat
+            <br>  senang membantu :)
+            <br>
+            <br>
+              Have a nice day :)</p>
+        </div>
+    </div>
+
+
+
+    <div class="balasan d-flex justify-content-center align-items-center">
+      <input type="text" placeholder="Tulis Balasan">
+      <i class="iconify" data-icon="fluent:send-16-regular"></i>
+    </div>
+    <!-- <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea> -->
+  </form>
+</div>
+
+<script>
+var fade = document.getElementById("myForm");
+function openForm() {
+  // document.getElementById("myForm").style.animation = "fade 0.5s forward";
+
+  // document.getElementById("myForm").style.transition =  "transform: 0.5s"
+  // document.getElementById("myForm").style.transform = "scale(1,1)"
+
+  fade.style.transition = "0.5s";
+  fade.style.transform = "scale(1,1)";
+  fade.style.display = "block";
+  fade.style.zIndex = "1000";
+  
+}
+
+function closeForm() {
+  fade.style.transition = "0.5s";
+  fade.style.display = "block";
+  fade.style.transform = "scale(0,0)";
+}
+</script>

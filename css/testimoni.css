@@ -108,6 +108,13 @@
     z-index: 5;
 }
 
+
+.testimoni .carousel_wrap .slider .test .iconify
+{
+    display: none;
+}
+/* End Carousel */
+
 .slider .owl-nav .owl-prev{
     border: none;
     background-color: transparent;
@@ -167,6 +174,7 @@
         font-size: 1.25rem;
     }
 }
+
 
 @media only screen and (max-width:1025px) {
     .slider .owl-nav {
