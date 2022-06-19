@@ -181,6 +181,14 @@
         padding: 0rem 17rem;
         bottom: 43%;
     }
+
+    .carousel_wrap h1.head1{
+        font-size: 1.25rem;
+    }
+
+    .carousel_wrap h1.head2{
+        font-size: 2.5rem;
+    }
 }
 
 @media only screen and (max-width:993px){
@@ -197,13 +205,11 @@
     }
 
     .carousel_wrap h1.head1{
-        font-size: 1.25rem;
         margin-left: 1.5rem;
 
     }
 
     .carousel_wrap h1.head2{
-        font-size: 2.5rem;
         width: 20rem;
         margin-left: 1.5rem;
     }
