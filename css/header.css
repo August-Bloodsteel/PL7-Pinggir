@@ -1,5 +1,22 @@
+
+
+.header .headerwrap .headkiri img#kiri
+{
+    z-index: 2;
+}
+.header .headerwrap .headkiri img#kanan
+{
+    width: 44.25rem;
+    height: 29.063rem;
+    position: relative;
+    right: 20px;
+}
+
 .header .headerwrap .headkanan img
 {
     width: 44.25rem;
     height: 29.063rem;
+    position: relative;
+    right: 20px;
+    z-index: 1;
 }
