@@ -6,7 +6,6 @@
 .header .headerwrap .headkiri
 {
     position: relative;
-    background-color: aqua;
     width: 50vw;
     height: 75vh;
     background-size: cover;
@@ -14,7 +13,6 @@
 .header .headerwrap .headkanan
 {
     position: relative;
-    background-color: blue;
     width: 50vw;
     height: 75vh;
     right: 50px;
@@ -52,7 +50,6 @@
 .header .tulisan .tul
 {
     width: 50vw;
-    background-color: aqua;
     height: 12.75rem;
 }
 .header .tulisan .tul .wraptul
@@ -135,7 +132,6 @@
 {
     overflow: visible;
     width: 50vw;
-    background-color: blueviolet;
     height: 12.75rem;
 }
 
