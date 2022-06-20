@@ -4,8 +4,8 @@
     border: none;
     cursor: pointer;
     position: fixed;
-    bottom: 240px;
-    right: 100px;
+    bottom: 130px;
+    right: 120px;
     width: 72px;
     height: 72px;
     display: flex;
@@ -19,7 +19,7 @@
   .chat-popup {
     display: block;
     position: fixed;
-    bottom: 190px;
+    bottom: 170px;
     right: 40px;
     z-index: 9;
     transition: 0.5s;
