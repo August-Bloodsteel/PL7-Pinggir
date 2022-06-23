@@ -1,0 +1,33 @@
+/* Start General Blog Menu Settings */
+.blog_menu{
+    background: linear-gradient(90.18deg, #0D0D0D 0%, rgba(13, 13, 13, 0.85) 100%);    
+}
+
+.blog_menu p,h1{
+    margin: 0;
+}
+/* End General Blog Menu Settings */
+
+/* Start Title Blog Menu */
+.blogmenu_wrap .title_bm1{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 150%;
+    color: rgba(232, 83, 0, 1);
+
+    margin-top: 3.75rem;
+}
+
+.blogmenu_wrap .title_bm2{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.5rem;
+    line-height: 120%;
+    color: white;
+    
+    margin-bottom: 4rem;
+}
+/* End Title Blog Menu */

@@ -35,9 +35,9 @@
 <body>
     <!-- =========================== Start Include Content Area =========================== -->
 
-    <div id="navbar"></div>
-
-    <div id="footer"></div>
+    <div id="navbar d-none"></div>
+    <div id="blog_menu"></div>
+    <div id="footer d-none"></div>
 
     <!-- =========================== End Include Content Area =========================== -->
 
@@ -67,6 +67,7 @@
     <script>
         $(function(){
             $("#navbar").load("../navbar.html");
+            $("#blog_menu").load("./blogmenu.html");
             $("#footer").load("../footer.html");
         });
     </script>
