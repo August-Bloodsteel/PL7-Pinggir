@@ -36,3 +36,30 @@ Garpu   = https://gdurl.com/cBkL
 ========footer============
 1 https://gdurl.com/6KgV
 2 https://gdurl.com/v79R
+
+
+========== Mentahan Link ==========
+gdurl   = https://gdurl.com
+========== Mentahan Link ==========
+
+=============== Testimoni ===============
+Orang 1 = https://gdurl.com/r-gV
+Orang 2 = https://gdurl.com/wb3p
+Orang 3 = https://gdurl.com/PISk
+=============== Testimoni ===============
+
+=============== Blog ===============
+Gambar 1    = https://gdurl.com/eGjO
+Gambar 2    = https://gdurl.com/gewk
+Gambar 3    = https://gdurl.com/Fw5c
+Gambar 4    = https://gdurl.com/lyMT
+=============== Blog ===============
+
+=============== Menu Blog ===============
+Gambar 1    = https://gdurl.com/N2Ra
+Gambar 2    = https://gdurl.com/nCQR
+Gambar 3    = https://gdurl.com/1Brs
+Gambar 4    = https://gdurl.com/C0jF
+Gambar 5    = https://gdurl.com/2h_F
+Gambar 6    = https://gdurl.com/64u4
+=============== Menu Blog ===============
