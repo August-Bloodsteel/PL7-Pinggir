@@ -1,3 +1,32 @@
+.about2 .titabout .titabout2
+{
+    margin-top: 70px;
+}
+.about2 .titabout .titabout2 h1
+{
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    padding-top: 120px;
+    color: #E85300;
+}
+
+.about2 .wrapisiabout2 .isiabout
+{
+    margin-bottom: 60px;
+}
+.about2 .titabout .titabout2 h2
+{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 120%;
+    margin-bottom: 75px;
+    color: #FFFFFF;
+}
 .aboutour .wrap-story .story img
 {
     width: 36.75rem;
@@ -152,3 +181,202 @@
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
+
+
+/* responsive */
+@media only screen and (max-width: 1024px)
+{
+    .about .titabout .titabout2
+    {
+        width: 19.5rem;
+    }
+    .about .titabout .titabout2 h1
+    {
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .about .titabout .titabout2 h2
+    {
+        font-size: 40px;
+        margin-bottom: 24px;
+    }
+    .about2 .titabout .titabout2 h1
+    {
+        padding-top: 64px;
+    }
+
+
+
+    .aboutour .wrap-story .story
+    {
+        width: 19.5rem;
+    }
+
+    .aboutour .wrap-story .story .ourstory img
+    {
+        width: 19.5rem;
+        height: 12.5rem;
+        margin-top: 0px;
+        margin-bottom: 24px;
+        margin-right: 48px;
+    }
+    
+    .aboutour .wrap-story .story .ourstory h1
+    {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 120%;
+        color: #E85300;
+        margin-top: 40px;
+        margin-bottom: 24px;
+    }
+    .aboutour .wrap-story .story .ourstory h2
+    {
+        width: 20.625rem;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: rgba(41, 38, 33, 0.75);
+        margin-bottom: 73px;
+    }
+
+
+
+
+    .aboutmenu .wrap-menu .menuabout
+    {
+        width: 19.5rem;
+    }
+    .aboutmenu .wrap-menu .menuabout .ourmenu img
+    {
+        width: 19.5rem;
+        height: 12.5rem;
+        margin-top: 24px;
+        margin-left: 0px;
+        margin-bottom: 24px;
+    }
+    
+    .aboutmenu .wrap-menu .menuabout .ourmenu h1
+    {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 120%;
+        color: #E85300;
+        margin-top: 40px;
+    }
+    .aboutmenu .wrap-menu .menuabout .ourmenu h2
+    {
+        width: 19.5rem;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: white;
+        margin-top: 0px
+    }
+    .aboutmenu .wrap-menu .menuabout .ourmenu h2 p
+    
+    {
+        margin-left: 40px;
+    }
+    .aboutmenu .wrap-menu .menuabout .ourmenu .viewall:hover
+    {
+        width: 19.5rem;
+    }
+    .aboutmenu .wrap-menu .menuabout .ourmenu .viewall
+    {
+        background: linear-gradient(96.41deg, #E60000 0%, #E85300 100%);
+        border-radius: 32px;
+        width: 19.5rem;
+        height: 3.75rem;
+        margin-top: 32px;
+        transition: 0.5s;
+        margin-bottom: 40px;
+    }
+    
+    .aboutmenu .wrap-menu .menuabout .ourmenu .viewall a .iconify
+    {
+        font-size: 24px;
+    }
+    .aboutmenu .wrap-menu .menuabout .ourmenu .viewall a
+    {
+        text-decoration: none;
+        color: white;
+    }
+
+    .reaction .wrap-reaction
+    {
+        align-items: center;
+        justify-content: center;
+
+    }
+    .reaction .wrap-reaction .reactionisi
+    {
+        /* display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 19.5rem;
+
+    }
+
+
+    .reaction .wrap-reaction .coffee
+    {
+        margin-right: 0px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .reaction .wrap-reaction .staff
+    {
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .reaction .wrap-reaction .happy
+    {
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+    .reaction .wrap-reaction .number
+    {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .reaction .wrap-reaction .lingkaranpink
+    {
+        width: 6rem;
+        height: 6rem;
+        background: rgba(232, 83, 0, 0.12);
+        border-radius: 100px;
+    }
+    
+    .reaction .wrap-reaction .lingkaranpink .iconify
+    {
+        font-size: 48px;
+    }
+
+    .reaction .wrap-reaction h1
+    {
+        font-size: 40px;
+    }
+
+    .reaction .wrap-reaction h2
+    {
+        font-size: 16px;
+    }
+}
+
