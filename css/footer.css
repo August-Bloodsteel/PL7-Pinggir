@@ -171,6 +171,25 @@ a {
 
 /* End Disclaimer */
 
+@media only screen and (max-width:1025px) {
+  .footer{
+    padding: 4.25rem;
+  }
+
+  .footer .upper_wrap .box1.sum .para{
+    width: 13.5rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .footer .iconify{
+    margin-right: 0.5rem;
+  }
+
+  .footer p, a{
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (max-width:993px) {
   .footer .upper_wrap .box1.sum .para{
     width: 30rem;

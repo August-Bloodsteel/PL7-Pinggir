@@ -121,6 +121,16 @@
 }
 /* End Button Blog */
 
+@media only screen and (max-width:1025px) {
+    .blog_wrap .kartu_wrap .kartu{
+        margin-right: 1.5rem;
+    }
+
+    .blog_wrap .kartu_wrap .kartu.last{
+        margin-right: 0rem;
+    }
+}
+
 @media only screen and (max-width:993px) {
     .blog_wrap .title_blog h1{
         font-size: 1.25rem;
@@ -132,14 +142,6 @@
 
     .blog_wrap .kartu_wrap{
         padding: 0rem 2.5rem;
-    }
-
-    .blog_wrap .kartu_wrap .kartu{
-        margin-right: 1.5rem;
-    }
-
-    .blog_wrap .kartu_wrap .kartu.last{
-        margin-right: 0rem;
     }
 
     .btn_blog .blogspot:hover{
