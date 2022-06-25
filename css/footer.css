@@ -85,6 +85,11 @@ a {
   margin-bottom: 0.5rem;
 }
 
+.footer .upper_wrap .kol3 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer .upper_wrap .kol3 ul {
   margin: 0;
   padding: 0;
