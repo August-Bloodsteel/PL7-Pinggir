@@ -26,29 +26,27 @@
 
 @import url(./popup.css);
 
-html,body{
-    margin: 0%;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    scroll-behavior: smooth;
-    scroll-padding-top: 100px;
-    
+html,
+body {
+  margin: 0%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
-.preloader
-{
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(107.15deg, #E60000 0%, #E85300 100%);
-    z-index: 10000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.preloader {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(107.15deg, #e60000 0%, #e85300 100%);
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.preloader .logo img
-{
-    width: 20.196rem;
-    height: 7.688rem;
+.preloader .logo img {
+  width: 20.196rem;
+  height: 7.688rem;
 }

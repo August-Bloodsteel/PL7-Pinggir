@@ -1,69 +1,82 @@
 <nav class="fixed-top navbar" id="navbarbleb">
-    <a href="../index.html"><img src="https://gdurl.com/KvG9" /></a>
-    <div class="nav-links" id="NavLinks">
-      <ul class="d-none d-md-inline d-xl-inline">
-        <!-- <li><span class="icon close"  onclick="hideMenu()"></span></li> -->
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../about/indexabout.html">About Us</a></li>
-        <li><a href="../menu/indexmenu.html">Menu</a></li>
-        <li><a href="indexcontact.html">Contact</a></li>
-        <li><a href="../blog/indexblog.html">Blog</a></li>
-      </ul>
-      <ul class="d-inline d-md-none d-xl-none">
-        <!-- <li><span class="icon close"  onclick="hideMenu()"></span></li> -->
-        <li class="l1"><a href="../index.html" onclick="touch()">Home</a></li>
-        <li><a href="../about/indexabout.html" onclick="touch()">About Us</a></li>
-        <li><a href="../menu/indexmenu.html" onclick="touch()">Menu</a></li>
-        <li class="l2"><a href="indexcontact.html" onclick="touch()">Contact</a></li>
-        <li><a href="../blog/indexblog.html" onclick="touch()">Blog</a></li>
-      </ul>
-    </div>
-    <span class="icon bars">
-      <span id="show">
-        <i onclick="tampil()"class="iconify" data-icon="gg:menu-motion" style="color: white;" data-width="32"data-height="32"
-        ></i>
-      </span>
-      <img onclick="hideMenu()" src="./img/close.svg" alt="" id="close" style="display: none"/>
+  <a href="../index.html"><img src="https://gdurl.com/KvG9" /></a>
+  <div class="nav-links" id="NavLinks">
+    <ul class="d-none d-md-inline d-xl-inline">
+      <!-- <li><span class="icon close"  onclick="hideMenu()"></span></li> -->
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../about/indexabout.html">About Us</a></li>
+      <li><a href="../menu/indexmenu.html">Menu</a></li>
+      <li><a href="indexcontact.html">Contact</a></li>
+      <li><a href="../blog/indexblog.html">Blog</a></li>
+    </ul>
+    <ul class="d-inline d-md-none d-xl-none">
+      <!-- <li><span class="icon close"  onclick="hideMenu()"></span></li> -->
+      <li class="l1"><a href="../index.html" onclick="touch()">Home</a></li>
+      <li><a href="../about/indexabout.html" onclick="touch()">About Us</a></li>
+      <li><a href="../menu/indexmenu.html" onclick="touch()">Menu</a></li>
+      <li class="l2">
+        <a href="indexcontact.html" onclick="touch()">Contact</a>
+      </li>
+      <li><a href="../blog/indexblog.html" onclick="touch()">Blog</a></li>
+    </ul>
+  </div>
+  <span class="icon bars">
+    <span id="show">
+      <i
+        onclick="tampil()"
+        class="iconify"
+        data-icon="gg:menu-motion"
+        style="color: white"
+        data-width="32"
+        data-height="32"
+      ></i>
     </span>
-  </nav>
+    <img
+      onclick="hideMenu()"
+      src="./img/close.svg"
+      alt=""
+      id="close"
+      style="display: none"
+    />
+  </span>
+</nav>
 
+<script>
+  var navLinks = document.getElementById("NavLinks");
+  var keluar = document.getElementById("close");
+  var nengok = document.getElementById("show");
 
-  <script>
-      var navLinks = document.getElementById("NavLinks");
-      var keluar = document.getElementById("close");
-      var nengok = document.getElementById("show");
+  function tampil() {
+    keluar.style.display = "inline-block";
+    nengok.style.display = "none";
+    navLinks.style.transition = "0.5s";
+    navLinks.style.animation = "zoomin 0.5s";
+    navLinks.style.transform = "scale(1,1)";
+    navLinks.style.opacity = "100%";
+    // navLinks.style.transform = "scale(1)";
+    navLinks.style.display = "inline-block";
+    sip.style.marginTop = "500px";
+    sip.style.transition = "0.5s";
+  }
 
-      function tampil() {
-        keluar.style.display = "inline-block";
-        nengok.style.display = "none";
-        navLinks.style.transition = "0.5s";
-        navLinks.style.animation = "zoomin 0.5s";
-        navLinks.style.transform = "scale(1,1)";
-        navLinks.style.opacity = "100%";
-        // navLinks.style.transform = "scale(1)";
-        navLinks.style.display = "inline-block";
-        sip.style.marginTop = "500px";
-        sip.style.transition = "0.5s";
-      }
+  // function showMenu() {
 
-      // function showMenu() {
+  // }
+  function hideMenu() {
+    // navLinks.style.transform = "scale(0)";
+    navLinks.style.transition = "0.5s";
+    navLinks.style.transform = "scale(0,0)";
+    nengok.style.display = "inline-block";
+    keluar.style.display = "none";
+    navLinks.style.opacity = "0%";
+    sip.style.marginTop = "92px";
+  }
 
-      // }
-      function hideMenu() {
-        // navLinks.style.transform = "scale(0)";
-        navLinks.style.transition = "0.5s";
-        navLinks.style.transform = "scale(0,0)";
-        nengok.style.display = "inline-block";
-        keluar.style.display = "none";
-        navLinks.style.opacity = "0%";
-        sip.style.marginTop = "92px";
-      }
-
-      function touch() {
-        hideMenu();
-        // navLinks.style.display = "none";
-        // nengok.style.display = "inline-block";
-        // keluar.style.display = "none";
-        // sip.style.marginTop='92px';
-      }
-    </script>
+  function touch() {
+    hideMenu();
+    // navLinks.style.display = "none";
+    // nengok.style.display = "inline-block";
+    // keluar.style.display = "none";
+    // sip.style.marginTop='92px';
+  }
+</script>

@@ -1,382 +1,317 @@
-.about2 .titabout .titabout2
-{
-    margin-top: 70px;
+.about2 .titabout .titabout2 {
+  margin-top: 70px;
 }
-.about2 .titabout .titabout2 h1
-{
-    font-family: 'Pacifico';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
-    padding-top: 120px;
-    color: #E85300;
+.about2 .titabout .titabout2 h1 {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  padding-top: 120px;
+  color: #e85300;
 }
 
-.about2 .wrapisiabout2 .isiabout
-{
-    margin-bottom: 60px;
+.about2 .wrapisiabout2 .isiabout {
+  margin-bottom: 60px;
 }
-.about2 .titabout .titabout2 h2
-{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 72px;
-    line-height: 120%;
-    margin-bottom: 75px;
-    color: #FFFFFF;
+.about2 .titabout .titabout2 h2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+  margin-bottom: 75px;
+  color: #ffffff;
 }
-.aboutour .wrap-story .story img
-{
-    width: 36.75rem;
-    height: 18.375rem;
-    margin-top: 60px;
-    margin-bottom: 60px;
+.aboutour .wrap-story .story img {
+  width: 36.75rem;
+  height: 18.375rem;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 48px;
+}
+
+.aboutour .wrap-story .story .ourstory h1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 120%;
+  color: #e85300;
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+.aboutour .wrap-story .story .ourstory h2 {
+  width: 35.25rem;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(41, 38, 33, 0.75);
+  margin-bottom: 73px;
+}
+
+.aboutmenu {
+  background: linear-gradient(
+    90.18deg,
+    #0d0d0d 0%,
+    rgba(13, 13, 13, 0.85) 100%
+  );
+}
+.aboutmenu .wrap-menu .menuabout img {
+  width: 36.75rem;
+  height: 18.375rem;
+  margin-top: 60px;
+  margin-left: 48px;
+  margin-bottom: 60px;
+}
+
+.aboutmenu .wrap-menu .menuabout .ourmenu h1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 120%;
+  color: #e85300;
+  margin-top: 60px;
+}
+.aboutmenu .wrap-menu .menuabout .ourmenu h2 {
+  width: 35.375rem;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: white;
+  margin-top: 24px;
+}
+.aboutmenu .wrap-menu .menuabout .ourmenu h2 p {
+  margin-left: 40px;
+}
+.aboutmenu .wrap-menu .menuabout .ourmenu .viewall:hover {
+  width: 17.188rem;
+}
+.aboutmenu .wrap-menu .menuabout .ourmenu .viewall {
+  background: linear-gradient(96.41deg, #e60000 0%, #e85300 100%);
+  border-radius: 32px;
+  width: 14.75rem;
+  height: 3.75rem;
+  margin-top: 48px;
+  transition: 0.5s;
+}
+
+.aboutmenu .wrap-menu .menuabout .ourmenu .viewall a .iconify {
+  font-size: 24px;
+}
+.aboutmenu .wrap-menu .menuabout .ourmenu .viewall a {
+  text-decoration: none;
+  color: white;
+}
+
+.reaction .wrap-reaction .lingkaranpink {
+  width: 11.25rem;
+  height: 11.25rem;
+  background: rgba(232, 83, 0, 0.12);
+  border-radius: 100px;
+}
+
+.reaction .wrap-reaction .lingkaranpink .iconify {
+  font-size: 96px;
+}
+
+.reaction .wrap-reaction h1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+  color: #e85300;
+}
+.reaction .wrap-reaction h2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: rgba(41, 38, 33, 0.75);
+}
+
+.reaction .wrap-reaction .coffee {
+  margin-right: 109px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.reaction .wrap-reaction .staff {
+  margin-right: 109px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.reaction .wrap-reaction .happy {
+  margin-right: 109px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.reaction .wrap-reaction .number {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* responsive */
+@media only screen and (max-width: 1024px) {
+  .about .titabout .titabout2 {
+    width: 19.5rem;
+  }
+  .about .titabout .titabout2 h1 {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .about .titabout .titabout2 h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  .about2 .titabout .titabout2 h1 {
+    padding-top: 64px;
+  }
+
+  .aboutour .wrap-story .story {
+    width: 19.5rem;
+  }
+
+  .aboutour .wrap-story .story .ourstory img {
+    width: 19.5rem;
+    height: 12.5rem;
+    margin-top: 0px;
+    margin-bottom: 24px;
     margin-right: 48px;
-}
+  }
 
-.aboutour .wrap-story .story .ourstory h1
-{
-    font-family: 'IBM Plex Sans';
+  .aboutour .wrap-story .story .ourstory h1 {
+    font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 600;
     font-size: 64px;
     line-height: 120%;
-    color: #E85300;
-    margin-top: 60px;
+    color: #e85300;
+    margin-top: 40px;
     margin-bottom: 24px;
-}
-.aboutour .wrap-story .story .ourstory h2
-{
-    width: 35.25rem;
-    font-family: 'IBM Plex Sans';
+  }
+  .aboutour .wrap-story .story .ourstory h2 {
+    width: 20.625rem;
+    font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 150%;
     color: rgba(41, 38, 33, 0.75);
     margin-bottom: 73px;
-}
+  }
 
+  .aboutmenu .wrap-menu .menuabout {
+    width: 19.5rem;
+  }
+  .aboutmenu .wrap-menu .menuabout .ourmenu img {
+    width: 19.5rem;
+    height: 12.5rem;
+    margin-top: 24px;
+    margin-left: 0px;
+    margin-bottom: 24px;
+  }
 
-.aboutmenu
-{
-    background: linear-gradient(90.18deg, #0D0D0D 0%, rgba(13, 13, 13, 0.85) 100%);
-}
-.aboutmenu .wrap-menu .menuabout img
-{
-    width: 36.75rem;
-    height: 18.375rem;
-    margin-top: 60px;
-    margin-left: 48px;
-    margin-bottom: 60px;
-}
-
-.aboutmenu .wrap-menu .menuabout .ourmenu h1
-{
-    font-family: 'IBM Plex Sans';
+  .aboutmenu .wrap-menu .menuabout .ourmenu h1 {
+    font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 600;
-    font-size: 64px;
+    font-size: 40px;
     line-height: 120%;
-    color: #E85300;
-    margin-top: 60px;
-}
-.aboutmenu .wrap-menu .menuabout .ourmenu h2
-{
-    width: 35.375rem;
-    font-family: 'IBM Plex Sans';
+    color: #e85300;
+    margin-top: 40px;
+  }
+  .aboutmenu .wrap-menu .menuabout .ourmenu h2 {
+    width: 19.5rem;
+    font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 150%;
     color: white;
-    margin-top: 24px;
-}
-.aboutmenu .wrap-menu .menuabout .ourmenu h2 p
-
-{
+    margin-top: 0px;
+  }
+  .aboutmenu .wrap-menu .menuabout .ourmenu h2 p {
     margin-left: 40px;
-}
-.aboutmenu .wrap-menu .menuabout .ourmenu .viewall:hover
-{
-    width: 17.188rem;
-}
-.aboutmenu .wrap-menu .menuabout .ourmenu .viewall
-{
-    background: linear-gradient(96.41deg, #E60000 0%, #E85300 100%);
+  }
+  .aboutmenu .wrap-menu .menuabout .ourmenu .viewall:hover {
+    width: 19.5rem;
+  }
+  .aboutmenu .wrap-menu .menuabout .ourmenu .viewall {
+    background: linear-gradient(96.41deg, #e60000 0%, #e85300 100%);
     border-radius: 32px;
-    width: 14.75rem;
+    width: 19.5rem;
     height: 3.75rem;
-    margin-top: 48px;
+    margin-top: 32px;
     transition: 0.5s;
-}
+    margin-bottom: 40px;
+  }
 
-.aboutmenu .wrap-menu .menuabout .ourmenu .viewall a .iconify
-{
+  .aboutmenu .wrap-menu .menuabout .ourmenu .viewall a .iconify {
     font-size: 24px;
-}
-.aboutmenu .wrap-menu .menuabout .ourmenu .viewall a
-{
+  }
+  .aboutmenu .wrap-menu .menuabout .ourmenu .viewall a {
     text-decoration: none;
     color: white;
-}
+  }
 
-
-
-.reaction .wrap-reaction .lingkaranpink
-{
-    width: 11.25rem;
-    height: 11.25rem;
-    background: rgba(232, 83, 0, 0.12);
-    border-radius: 100px;
-}
-
-.reaction .wrap-reaction .lingkaranpink .iconify
-{
-    font-size: 96px;
-}
-
-.reaction .wrap-reaction h1
-{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 150%;
-    color: #E85300;
-    
-}
-.reaction .wrap-reaction h2
-{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: rgba(41, 38, 33, 0.75);
-}
-
-.reaction .wrap-reaction .coffee
-{
-    margin-right: 109px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-.reaction .wrap-reaction .staff
-{
-    margin-right: 109px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-.reaction .wrap-reaction .happy
-{
-    margin-right: 109px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-.reaction .wrap-reaction .number
-{
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-
-
-/* responsive */
-@media only screen and (max-width: 1024px)
-{
-    .about .titabout .titabout2
-    {
-        width: 19.5rem;
-    }
-    .about .titabout .titabout2 h1
-    {
-        margin-top: 0px;
-        font-size: 20px;
-    }
-    .about .titabout .titabout2 h2
-    {
-        font-size: 40px;
-        margin-bottom: 24px;
-    }
-    .about2 .titabout .titabout2 h1
-    {
-        padding-top: 64px;
-    }
-
-
-
-    .aboutour .wrap-story .story
-    {
-        width: 19.5rem;
-    }
-
-    .aboutour .wrap-story .story .ourstory img
-    {
-        width: 19.5rem;
-        height: 12.5rem;
-        margin-top: 0px;
-        margin-bottom: 24px;
-        margin-right: 48px;
-    }
-    
-    .aboutour .wrap-story .story .ourstory h1
-    {
-        font-family: 'IBM Plex Sans';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 64px;
-        line-height: 120%;
-        color: #E85300;
-        margin-top: 40px;
-        margin-bottom: 24px;
-    }
-    .aboutour .wrap-story .story .ourstory h2
-    {
-        width: 20.625rem;
-        font-family: 'IBM Plex Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        color: rgba(41, 38, 33, 0.75);
-        margin-bottom: 73px;
-    }
-
-
-
-
-    .aboutmenu .wrap-menu .menuabout
-    {
-        width: 19.5rem;
-    }
-    .aboutmenu .wrap-menu .menuabout .ourmenu img
-    {
-        width: 19.5rem;
-        height: 12.5rem;
-        margin-top: 24px;
-        margin-left: 0px;
-        margin-bottom: 24px;
-    }
-    
-    .aboutmenu .wrap-menu .menuabout .ourmenu h1
-    {
-        font-family: 'IBM Plex Sans';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 40px;
-        line-height: 120%;
-        color: #E85300;
-        margin-top: 40px;
-    }
-    .aboutmenu .wrap-menu .menuabout .ourmenu h2
-    {
-        width: 19.5rem;
-        font-family: 'IBM Plex Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        color: white;
-        margin-top: 0px
-    }
-    .aboutmenu .wrap-menu .menuabout .ourmenu h2 p
-    
-    {
-        margin-left: 40px;
-    }
-    .aboutmenu .wrap-menu .menuabout .ourmenu .viewall:hover
-    {
-        width: 19.5rem;
-    }
-    .aboutmenu .wrap-menu .menuabout .ourmenu .viewall
-    {
-        background: linear-gradient(96.41deg, #E60000 0%, #E85300 100%);
-        border-radius: 32px;
-        width: 19.5rem;
-        height: 3.75rem;
-        margin-top: 32px;
-        transition: 0.5s;
-        margin-bottom: 40px;
-    }
-    
-    .aboutmenu .wrap-menu .menuabout .ourmenu .viewall a .iconify
-    {
-        font-size: 24px;
-    }
-    .aboutmenu .wrap-menu .menuabout .ourmenu .viewall a
-    {
-        text-decoration: none;
-        color: white;
-    }
-
-    .reaction .wrap-reaction
-    {
-        align-items: center;
-        justify-content: center;
-
-    }
-    .reaction .wrap-reaction .reactionisi
-    {
-        /* display: flex;
+  .reaction .wrap-reaction {
+    align-items: center;
+    justify-content: center;
+  }
+  .reaction .wrap-reaction .reactionisi {
+    /* display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center; */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 19.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 19.5rem;
+  }
 
-    }
+  .reaction .wrap-reaction .coffee {
+    margin-right: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .reaction .wrap-reaction .staff {
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .reaction .wrap-reaction .happy {
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .reaction .wrap-reaction .number {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
 
+  .reaction .wrap-reaction .lingkaranpink {
+    width: 6rem;
+    height: 6rem;
+    background: rgba(232, 83, 0, 0.12);
+    border-radius: 100px;
+  }
 
-    .reaction .wrap-reaction .coffee
-    {
-        margin-right: 0px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-    .reaction .wrap-reaction .staff
-    {
-        margin-right: 0px;
-        margin-top: 0px;
-        margin-bottom: 40px;
-    }
-    .reaction .wrap-reaction .happy
-    {
-        margin-right: 0px;
-        margin-top: 0px;
-        margin-bottom: 40px;
-    }
-    .reaction .wrap-reaction .number
-    {
-        margin-top: 0px;
-        margin-bottom: 40px;
-    }
+  .reaction .wrap-reaction .lingkaranpink .iconify {
+    font-size: 48px;
+  }
 
-    .reaction .wrap-reaction .lingkaranpink
-    {
-        width: 6rem;
-        height: 6rem;
-        background: rgba(232, 83, 0, 0.12);
-        border-radius: 100px;
-    }
-    
-    .reaction .wrap-reaction .lingkaranpink .iconify
-    {
-        font-size: 48px;
-    }
+  .reaction .wrap-reaction h1 {
+    font-size: 40px;
+  }
 
-    .reaction .wrap-reaction h1
-    {
-        font-size: 40px;
-    }
-
-    .reaction .wrap-reaction h2
-    {
-        font-size: 16px;
-    }
+  .reaction .wrap-reaction h2 {
+    font-size: 16px;
+  }
 }
-
