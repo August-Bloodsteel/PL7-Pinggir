@@ -63,3 +63,7 @@ Gambar 4    = https://gdurl.com/C0jF
 Gambar 5    = https://gdurl.com/2h_F
 Gambar 6    = https://gdurl.com/64u4
 =============== Menu Blog ===============
+
+=============== Menu Makanan ===============
+Gambar 1    = https://gdurl.com
+=============== Menu Makanan ===============
