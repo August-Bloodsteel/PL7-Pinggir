@@ -1,236 +1,241 @@
 /* Start General Blog Menu Settings */
-.blog_menu{
-    background: linear-gradient(90.18deg, #0D0D0D 0%, rgba(13, 13, 13, 0.85) 100%);
+.blog_menu {
+  background: linear-gradient(
+    90.18deg,
+    #0d0d0d 0%,
+    rgba(13, 13, 13, 0.85) 100%
+  );
 }
 
-.blog_menu p,h1{
-    margin: 0;
+.blog_menu p,
+h1 {
+  margin: 0;
 }
 /* End General Blog Menu Settings */
 
 /* Start Title Blog Menu */
-.blogmenu_wrap .title_bm1{
-    font-family: 'Pacifico';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 150%;
-    color: rgba(232, 83, 0, 1);
+.blogmenu_wrap .title_bm1 {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 150%;
+  color: rgba(232, 83, 0, 1);
 
-    margin-top: 12.5rem;
+  margin-top: 12.5rem;
 }
 
-.blogmenu_wrap .title_bm2{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 4.5rem;
-    line-height: 120%;
-    color: white;
-    
-    margin-bottom: 4rem;
+.blogmenu_wrap .title_bm2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4.5rem;
+  line-height: 120%;
+  color: white;
+
+  margin-bottom: 4rem;
 }
 /* End Title Blog Menu */
 
 /* Start Blog Menu Content */
-.blog_menu .blogmenu_wrap .bm_content{
-    margin-bottom: 4rem;
+.blog_menu .blogmenu_wrap .bm_content {
+  margin-bottom: 4rem;
 }
 
-.blog_menu .blogmenu_wrap .bm_content .bm_card{
-    width: 24rem;
+.blog_menu .blogmenu_wrap .bm_content .bm_card {
+  width: 24rem;
 }
 
-.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_img{
-    width: 100%;
-    margin-bottom: 1.5rem;
+.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_img {
+  width: 100%;
+  margin-bottom: 1.5rem;
 }
 
-.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_tgl{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 150%;
+.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_tgl {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
 
-    color: #FFFFFF;
-    margin-right: 4.25rem;
+  color: #ffffff;
+  margin-right: 4.25rem;
 }
 
-.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_icon{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 150%;
+.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_icon {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
 
-    color: #E85300;
-    margin-right: 0.75rem
+  color: #e85300;
+  margin-right: 0.75rem;
 }
 
-.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_icon .iconify{
-    font-size: 1.5rem;
+.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_icon .iconify {
+  font-size: 1.5rem;
 }
 
-.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_admin{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 150%;
+.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_admin {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
-.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_text_holder{
-    margin-top: 1.5rem;
-    width: 100%;
+.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_text_holder {
+  margin-top: 1.5rem;
+  width: 100%;
 }
 
-.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_text_holder .bm_judul{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 150%;
+.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_text_holder .bm_judul {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 150%;
 
-    color: #E85300;
-    margin-bottom: 0.5rem;
+  color: #e85300;
+  margin-bottom: 0.5rem;
 }
 
-.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_text_holder .bm_para{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 150%;
+.blog_menu .blogmenu_wrap .bm_content .bm_card .bm_text_holder .bm_para {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 150%;
 
-    color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 /* End Blog Menu Content */
 
 /* Start Indicator */
-.blog_menu .blogmenu_wrap .bm_indicator{
-    margin-bottom: 3.75rem;
+.blog_menu .blogmenu_wrap .bm_indicator {
+  margin-bottom: 3.75rem;
 }
 
-.blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow{
-    font-size: 3rem;
-    color: #E85300;
+.blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow {
+  font-size: 3rem;
+  color: #e85300;
 }
 
-.blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow.l{
-    margin-right: 0.75rem;
+.blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow.l {
+  margin-right: 0.75rem;
 }
 
-.blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow.r{
-    margin-left: 0.75rem;
+.blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow.r {
+  margin-left: 0.75rem;
 }
 
-.blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .indi{
-    border: 1px solid #E85300;
-    border-radius: 6.25rem;
-    width: 4rem;
-    height: 4rem;
+.blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .indi {
+  border: 1px solid #e85300;
+  border-radius: 6.25rem;
+  width: 4rem;
+  height: 4rem;
 
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.25rem;
-    line-height: 150%;
-    color: #E85300;
-    margin: 0rem 0.75rem;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 150%;
+  color: #e85300;
+  margin: 0rem 0.75rem;
 }
 
-.blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .indi.hidup{
-    background-color: #E85300;
-    color: white;
+.blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .indi.hidup {
+  background-color: #e85300;
+  color: white;
 }
 /* End Indicator */
 
-@media only screen and (max-width:1025px) {    
-    .blog_menu .blogmenu_wrap .bm_content .bm_card{
-        width: 17rem;
-    }
+@media only screen and (max-width: 1025px) {
+  .blog_menu .blogmenu_wrap .bm_content .bm_card {
+    width: 17rem;
+  }
 }
 
-@media only screen and (max-width:993px) {
-    .blog_menu .blogmenu_wrap .bm_content{
-        margin-bottom: 0rem;
-    }
+@media only screen and (max-width: 993px) {
+  .blog_menu .blogmenu_wrap .bm_content {
+    margin-bottom: 0rem;
+  }
 
-    .blog_menu .blogmenu_wrap .bm_content .bm_card{
-        margin-bottom: 4rem;
-    }
+  .blog_menu .blogmenu_wrap .bm_content .bm_card {
+    margin-bottom: 4rem;
+  }
 
-    .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_icon{
-        margin: 0;
-    }
+  .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_icon {
+    margin: 0;
+  }
 
-    .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_admin{
-        margin-right: 0.75rem;
-    }
+  .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_admin {
+    margin-right: 0.75rem;
+  }
 
-    .blogmenu_wrap .title_bm1{
-        width: 100%;
-        text-align: center;
-    }
+  .blogmenu_wrap .title_bm1 {
+    width: 100%;
+    text-align: center;
+  }
 
-    .blogmenu_wrap .title_bm2{
-        width: 100%;
-        text-align: center;
-    }
+  .blogmenu_wrap .title_bm2 {
+    width: 100%;
+    text-align: center;
+  }
 }
 
-@media only screen and (max-width:577px){
-    .blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow{
-        font-size: 1.5rem;
-        color: #E85300;
-    }
+@media only screen and (max-width: 577px) {
+  .blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow {
+    font-size: 1.5rem;
+    color: #e85300;
+  }
 
-    .blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow.l{
-        margin-right: 0.25rem;
-    }
-    .blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow.r{
-        margin-left: 0.25rem;
-    }
+  .blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow.l {
+    margin-right: 0.25rem;
+  }
+  .blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .arrow.r {
+    margin-left: 0.25rem;
+  }
 
-    .blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .indi{
-        width: 2.5rem;
-        height: 2.5rem;
+  .blog_menu .blogmenu_wrap .bm_indicator .indicator_wrap .indi {
+    width: 2.5rem;
+    height: 2.5rem;
 
-        font-size: 0.75rem;
-        margin: 0rem 0.25rem;
-    }
+    font-size: 0.75rem;
+    margin: 0rem 0.25rem;
+  }
 
-    .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_tgl{
-        font-size: 0.75rem;
-    }
+  .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_tgl {
+    font-size: 0.75rem;
+  }
 
-    .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_admin{
-        font-size: 0.75rem;
-    }
+  .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_admin {
+    font-size: 0.75rem;
+  }
 
-    .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_icon{
-        font-size: 0.75rem;
-    }
+  .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_icon {
+    font-size: 0.75rem;
+  }
 
-    .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_icon .iconify{
-        font-size: 1.5rem;
-    }
+  .blog_menu .blogmenu_wrap .bm_content .bm_card .bm_icon .iconify {
+    font-size: 1.5rem;
+  }
 
-    .blogmenu_wrap .title_bm1{
-        font-size: 1.25rem;
-        text-align: start;
-    }
+  .blogmenu_wrap .title_bm1 {
+    font-size: 1.25rem;
+    text-align: start;
+  }
 
-    .blogmenu_wrap .title_bm2{
-        font-size: 2.5rem;
-        text-align: start;
-        margin-bottom: 2.5rem;
-    }
+  .blogmenu_wrap .title_bm2 {
+    font-size: 2.5rem;
+    text-align: start;
+    margin-bottom: 2.5rem;
+  }
 
-    .blog_menu .blogmenu_wrap .bm_indicator{
-        margin-bottom: 2rem;
-    }
+  .blog_menu .blogmenu_wrap .bm_indicator {
+    margin-bottom: 2rem;
+  }
 }

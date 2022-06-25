@@ -1,160 +1,159 @@
 /* Start General Blog Settings */
-.blog p,h1{
-    margin: 0;
+.blog p,
+h1 {
+  margin: 0;
 }
 /* End General Blog Settings */
 
 /* Start Title Blog */
-.blog_wrap .title_blog h1{
-    font-family: 'Pacifico';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 150%;
-    color: rgba(232, 83, 0, 1);
+.blog_wrap .title_blog h1 {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 150%;
+  color: rgba(232, 83, 0, 1);
 
-    margin-top: 3.75rem;
+  margin-top: 3.75rem;
 }
 
-.blog_wrap .title_blog2 h1{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 4.5rem;
-    line-height: 120%;
-    color: rgba(13, 13, 13, 0.75);
-    
-    margin-bottom: 4rem;
+.blog_wrap .title_blog2 h1 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4.5rem;
+  line-height: 120%;
+  color: rgba(13, 13, 13, 0.75);
+
+  margin-bottom: 4rem;
 }
 /* End Title Blog */
 
 /* Start kartu */
-.blog_wrap .kartu_wrap{
-    padding: 0rem 7.5rem;
-    overflow-x: auto;
+.blog_wrap .kartu_wrap {
+  padding: 0rem 7.5rem;
+  overflow-x: auto;
 }
-.blog_wrap .kartu_wrap .kartu{
-    width: 18rem;
+.blog_wrap .kartu_wrap .kartu {
+  width: 18rem;
 }
 /* End kartu */
 
 /* Start Detail */
-.blog_wrap .kartu_wrap .kartu .detail{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 150%;
+.blog_wrap .kartu_wrap .kartu .detail {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
 }
-.blog_wrap .kartu_wrap .kartu .detail .tgl_up{
-    color: rgba(41, 38, 33, 0.5);    
-}
-
-.blog_wrap .kartu_wrap .kartu .detail .uploader{
-    font-weight: 400;
-    color: rgba(41, 38, 33, 0.5);
-    margin-left: 1rem;
+.blog_wrap .kartu_wrap .kartu .detail .tgl_up {
+  color: rgba(41, 38, 33, 0.5);
 }
 
-.blog_wrap .kartu_wrap .kartu .detail .icon{
-    color: rgba(232, 83, 0, 1);
-    margin-left: 0.25rem ;
+.blog_wrap .kartu_wrap .kartu .detail .uploader {
+  font-weight: 400;
+  color: rgba(41, 38, 33, 0.5);
+  margin-left: 1rem;
 }
 
-.blog_wrap .kartu_wrap .kartu .detail .icon .iconify{
-    font-size: 1.25rem;
+.blog_wrap .kartu_wrap .kartu .detail .icon {
+  color: rgba(232, 83, 0, 1);
+  margin-left: 0.25rem;
+}
+
+.blog_wrap .kartu_wrap .kartu .detail .icon .iconify {
+  font-size: 1.25rem;
 }
 /* End Detail */
 
 /* Start Blog Paragraph */
-.blog_wrap .kartu_wrap .kartu .blog_para .judul{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 150%;
-    color: rgba(232, 83, 0, 1);
+.blog_wrap .kartu_wrap .kartu .blog_para .judul {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: rgba(232, 83, 0, 1);
 
-    margin-top: 1.25rem;
+  margin-top: 1.25rem;
 }
 
-.blog_wrap .kartu_wrap .kartu .blog_para .summ{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 150%;
-    color: rgba(41, 38, 33, 0.75);
+.blog_wrap .kartu_wrap .kartu .blog_para .summ {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 150%;
+  color: rgba(41, 38, 33, 0.75);
 
-    width: 16.25rem;
+  width: 16.25rem;
 }
 /* End Blog Paragraph */
 
 /* Start Button Blog */
-.btn_blog{
-    height: 3.75rem;
+.btn_blog {
+  height: 3.75rem;
 
-    margin-top: 3.25rem;
-    margin-bottom: 4.5rem;
+  margin-top: 3.25rem;
+  margin-bottom: 4.5rem;
 }
 
+.btn_blog .blogspot {
+  border: 0px;
+  border-radius: 2rem;
+  padding: 0.75rem 1.25rem;
+  text-decoration: none;
+  background: linear-gradient(96.41deg, #e60000 0%, #e85300 100%);
 
-.btn_blog .blogspot{
-    border: 0px;
-    border-radius: 2rem;
-    padding: 0.75rem 1.25rem;
-    text-decoration: none;
-    background: linear-gradient(96.41deg, #E60000 0%, #E85300 100%);
-
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 150%;
-    text-align: center;
-    color: white;
-    transition: 0.5s;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 150%;
+  text-align: center;
+  color: white;
+  transition: 0.5s;
 }
 
-.btn_blog .blogspot:hover{
-    padding: 0.75rem 2.75rem;
+.btn_blog .blogspot:hover {
+  padding: 0.75rem 2.75rem;
 }
 /* End Button Blog */
 
-@media only screen and (max-width:1025px) {
-    .blog_wrap .kartu_wrap .kartu{
-        margin-right: 1.5rem;
-    }
+@media only screen and (max-width: 1025px) {
+  .blog_wrap .kartu_wrap .kartu {
+    margin-right: 1.5rem;
+  }
 
-    .blog_wrap .kartu_wrap .kartu.last{
-        margin-right: 0rem;
-    }
+  .blog_wrap .kartu_wrap .kartu.last {
+    margin-right: 0rem;
+  }
 }
 
-@media only screen and (max-width:993px) {
-    .blog_wrap .title_blog h1{
-        font-size: 1.25rem;
-    }
+@media only screen and (max-width: 993px) {
+  .blog_wrap .title_blog h1 {
+    font-size: 1.25rem;
+  }
 
-    .blog_wrap .title_blog2 h1{
-        font-size: 2.5rem;
-    }
+  .blog_wrap .title_blog2 h1 {
+    font-size: 2.5rem;
+  }
 
-    .blog_wrap .kartu_wrap{
-        padding: 0rem 2.5rem;
-    }
+  .blog_wrap .kartu_wrap {
+    padding: 0rem 2.5rem;
+  }
 
-    .btn_blog .blogspot:hover{
-        padding: 0.75rem 1.25rem;
-
-    }
+  .btn_blog .blogspot:hover {
+    padding: 0.75rem 1.25rem;
+  }
 }
 
-@media only screen and (max-width:577px){
-    .blog_wrap .title_blog h1{
-        margin-left: 1.5rem;
-    }
-    .blog_wrap .title_blog2 h1{
-        margin-left: 1.5rem;
-    }
+@media only screen and (max-width: 577px) {
+  .blog_wrap .title_blog h1 {
+    margin-left: 1.5rem;
+  }
+  .blog_wrap .title_blog2 h1 {
+    margin-left: 1.5rem;
+  }
 }

@@ -1,422 +1,353 @@
 /* contact2 */
-.contact .tactwrap .tact #silahkan
-{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 72px;
-    line-height: 120%;
-    color: #FFFFFF;
-    margin-bottom: 64px;
-    width: 52.5rem;
+.contact .tactwrap .tact #silahkan {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 64px;
+  width: 52.5rem;
 }
 
-.contact .gcontact-wrap .gcontact2
-{
-    display: flex;
-    justify-content: center;
+.contact .gcontact-wrap .gcontact2 {
+  display: flex;
+  justify-content: center;
 }
-.contact .gcontact-wrap .gcontact2 iframe
-{
-    height: 15rem;
-    border-radius: 24px;
-    width: 75rem;
-    margin-bottom: 48px;
-    margin-top: 80px;
+.contact .gcontact-wrap .gcontact2 iframe {
+  height: 15rem;
+  border-radius: 24px;
+  width: 75rem;
+  margin-bottom: 48px;
+  margin-top: 80px;
 }
-.contact .mapwrap .map .loc img
-{
-    width: 24rem;
-    height: 28.063rem;
-    margin-right: 24px;
+.contact .mapwrap .map .loc img {
+  width: 24rem;
+  height: 28.063rem;
+  margin-right: 24px;
 }
 
-.contact .mapwrap .map .form .book2
-{
-    background: linear-gradient(96.41deg, #E60000 0%, #E85300 100%);
-    border-radius: 32px;
-    width: 15.125rem;
-    height: 3.75rem;
-    transition: 0.5s;
+.contact .mapwrap .map .form .book2 {
+  background: linear-gradient(96.41deg, #e60000 0%, #e85300 100%);
+  border-radius: 32px;
+  width: 15.125rem;
+  height: 3.75rem;
+  transition: 0.5s;
 }
 
-.contact .mapwrap .map .form .book2:hover
-{
-    width: 16rem;
+.contact .mapwrap .map .form .book2:hover {
+  width: 16rem;
 }
 
-.contact .mapwrap .map .form .book2 .iconify
-{
-    font-size: 24px;
-    position: relative;
-    bottom: 2px;
-    margin-right: 8px;
+.contact .mapwrap .map .form .book2 .iconify {
+  font-size: 24px;
+  position: relative;
+  bottom: 2px;
+  margin-right: 8px;
 }
-.contact .mapwrap .map .form .book2 a span
-{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 150%;
-    color: #FFFFFF;
+.contact .mapwrap .map .form .book2 a span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
 }
 /* contact2 */
 
-.contact
-{
-    background: linear-gradient(90.18deg, #0D0D0D 0%, rgba(13, 13, 13, 0.85) 100%);
-    margin-top: 60px;
+.contact {
+  background: linear-gradient(
+    90.18deg,
+    #0d0d0d 0%,
+    rgba(13, 13, 13, 0.85) 100%
+  );
+  margin-top: 60px;
 }
 
-.contact .tactwrap .tact h1
-{
-    font-family: 'Pacifico';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
-    color: #E85300;
-    margin-top: 60px;
+.contact .tactwrap .tact h1 {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #e85300;
+  margin-top: 60px;
 }
 
-.contact .tactwrap .tact h2
-{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 72px;
-    line-height: 120%;
-    color: #FFFFFF;
-    margin-bottom: 64px;
-    
+.contact .tactwrap .tact h2 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 64px;
 }
 
-.contact .gcontact-wrap .gcontact
-{
-    height: 15rem;
-    border-radius: 24px;
-    width: 75rem;
-    margin-bottom: 48px;
+.contact .gcontact-wrap .gcontact {
+  height: 15rem;
+  border-radius: 24px;
+  width: 75rem;
+  margin-bottom: 48px;
 }
 
-.contact .gcontact-wrap .gcontact img
-{
-    width: 75rem;
-    height: 15rem;
-    border-radius: 24px;
+.contact .gcontact-wrap .gcontact img {
+  width: 75rem;
+  height: 15rem;
+  border-radius: 24px;
 }
 
+.contact .mapwrap .map .loc iframe {
+  width: 24rem;
+  height: 25rem;
+  border-radius: 24px;
+  margin-right: 24px;
+}
+.contact .mapwrap .map .form {
+  width: 49.5rem;
+  height: 27.5rem;
+}
+.contact .mapwrap .map .form .f {
+  height: 76px;
+}
+.contact .mapwrap .map .form label .iconify {
+  font-size: 24px;
+  position: relative;
+  bottom: 3px;
+  margin-left: 16px;
+}
+.contact .mapwrap .map .form label {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.contact .mapwrap .map .form input {
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact .mapwrap .map .form input::placeholder {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.contact .mapwrap .map .form input:focus {
+  border-bottom: 1px solid #e85300;
+  caret-color: #e85300;
+  color: white;
+}
 
-.contact .mapwrap .map .loc iframe
-{
-    width: 24rem;
-    height: 25rem;
-    border-radius: 24px;
-    margin-right: 24px;
+.contact .mapwrap .map .form input:focus::-webkit-input-placeholder {
+  opacity: 0%;
 }
-.contact .mapwrap .map .form
-{
-    width: 49.5rem;
-    height: 27.5rem;
+.contact .mapwrap .map .form input:focus + label {
+  color: #e85300;
 }
-.contact .mapwrap .map .form .f
-{
-    height: 76px;
+
+.contact .mapwrap .map .form input {
+  width: 24rem;
+  margin: 0;
+  outline: none;
+  background-color: transparent;
+  padding-bottom: 8px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
 }
-.contact .mapwrap .map .form label .iconify
-{
+
+.contact .mapwrap .map .form .nama {
+  margin-right: 24px;
+}
+.contact .mapwrap .map .form .date {
+  margin-right: 24px;
+}
+.contact .mapwrap .map .form .pesan {
+  width: 49.5rem;
+}
+
+.contact .mapwrap .map .form .book {
+  background: linear-gradient(96.41deg, #e60000 0%, #e85300 100%);
+  border-radius: 32px;
+  width: 11.938rem;
+  height: 3.75rem;
+  transition: 0.5s;
+}
+
+.contact .mapwrap .map .form .book:hover {
+  width: 14.375rem;
+}
+.contact .mapwrap .map .form .book .iconify {
+  font-size: 24px;
+  position: relative;
+  bottom: 2px;
+  margin-right: 8px;
+}
+.contact .mapwrap .map .form .book a {
+  text-decoration: none;
+}
+.contact .mapwrap .map .form .book a span {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 960px) {
+  .contact .gcontact-wrap .gcontact {
+    width: 19.5rem;
+    height: 5rem;
+  }
+
+  .contact .gcontact-wrap .gcontact img {
+    width: 19.5rem;
+    height: 5rem;
+    border-radius: 12px;
+  }
+
+  .contact .tactwrap .tact {
+    width: 19.5rem;
+  }
+  .contact .tactwrap .tact h1 {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .contact .tactwrap .tact h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+  .contact .mapwrap .map .loc iframe {
+    width: 19.5rem;
+    height: 20.313rem;
+    margin-right: 0px;
+    margin-top: 100px;
+  }
+
+  .contact .mapwrap .map .form input {
+    width: 19.5rem;
+  }
+
+  .contact .mapwrap .map .form .nama {
+    margin-bottom: 40px;
+  }
+  .contact .mapwrap .map .form .phone {
+    margin-bottom: 40px;
+  }
+  .contact .mapwrap .map .form .date {
+    margin-bottom: 40px;
+  }
+  .contact .mapwrap .map .form .time {
+    margin-bottom: 40px;
+  }
+
+  .contact .mapwrap .map .form .f {
+    height: 90px;
+  }
+
+  .contact .mapwrap .map .form .pesan {
+    width: 19.5rem;
+    margin-bottom: 40px;
+  }
+
+  .contact .mapwrap .map {
+    align-items: center;
+  }
+  .contact .mapwrap .map .form {
+    width: 19.5rem;
+    flex-wrap: nowrap;
+  }
+
+  .contact .mapwrap .map .form label {
+    font-size: 20px;
+  }
+
+  .contact .mapwrap .map .form .book {
+    background: linear-gradient(96.41deg, #e60000 0%, #e85300 100%);
+    border-radius: 32px;
+    width: 19.5rem;
+    height: 3rem;
+  }
+
+  .contact .mapwrap .map .form .book:hover {
+    width: 19.5rem;
+  }
+  .contact .mapwrap .map .form .book .iconify {
     font-size: 24px;
     position: relative;
-    bottom: 3px;
-    margin-left: 16px;
-}
-.contact .mapwrap .map .form label
-{
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 150%;
-    color: #FFFFFF;
-    
-}
-.contact .mapwrap .map .form input
-{
-    color-scheme: dark;
-    color: rgba(255, 255, 255, 0.5);
-}
-.contact .mapwrap .map .form input::placeholder
-{
-    font-family: 'IBM Plex Sans';
+    bottom: 1px;
+    margin-right: 8px;
+  }
+  .contact .mapwrap .map .form .book a span {
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    color: rgba(255, 255, 255, 0.5);
-}
-.contact .mapwrap .map .form input:focus 
-{
-    border-bottom: 1px solid #E85300;
-    caret-color: #E85300;
-    color: white;
-}
+    color: #ffffff;
+  }
 
-.contact .mapwrap .map .form input:focus::-webkit-input-placeholder
-{
-    opacity: 0%;
-}
-.contact .mapwrap .map .form input:focus + label
-{
-    color: #E85300;
-}
-
-
-
-.contact .mapwrap .map .form input
-{
-    width: 24rem;
-    margin: 0;
-    outline: none;
-    background-color: transparent;
-    padding-bottom: 8px;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
-}
-
-.contact .mapwrap .map .form .nama
-{
-    margin-right: 24px;
-}
-.contact .mapwrap .map .form .date
-{
-    margin-right: 24px;
-}
-.contact .mapwrap .map .form .pesan
-{
-    width: 49.5rem;
-}
-
-.contact .mapwrap .map .form .book
-{
-    background: linear-gradient(96.41deg, #E60000 0%, #E85300 100%);
-    border-radius: 32px;
-    width: 11.938rem;
-    height: 3.75rem;
-    transition: 0.5s;
-}
-
-.contact .mapwrap .map .form .book:hover
-{
-    width: 14.375rem;
-}
-.contact .mapwrap .map .form .book .iconify
-{
-    font-size: 24px;
-    position: relative;
-    bottom: 2px;
-    margin-right: 8px;
-}
-.contact .mapwrap .map .form .book a
-{
-    text-decoration: none;
-}
-.contact .mapwrap .map .form .book a span
-{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 150%;
-    color: #FFFFFF;
-}
-
-
-@media only screen and (max-width: 960px)
-{
-    .contact .gcontact-wrap .gcontact
-    {
-        width: 19.5rem;
-        height: 5rem;
-
-    }
-
-    .contact .gcontact-wrap .gcontact img
-    {
-        width: 19.5rem;
-        height: 5rem;
-        border-radius: 12px;
-    }
-    
-    .contact .tactwrap .tact
-    {
-        width: 19.5rem;
-    }
-    .contact .tactwrap .tact h1
-    {
-        font-size: 20px;
-        margin-top: 40px;
-    }
-    .contact .tactwrap .tact h2
-    {
-        font-size: 40px;
-        margin-bottom: 24px;
-    } 
-    .contact .mapwrap .map .loc iframe
-    {
-        width: 19.5rem;
-        height: 20.313rem;
-        margin-right: 0px;
-        margin-top: 100px;
-    }
-
-    .contact .mapwrap .map .form input
-    {
-        width: 19.5rem;
-    }
-
-    .contact .mapwrap .map .form .nama
-    {
-        margin-bottom: 40px;
-    }
-    .contact .mapwrap .map .form .phone
-    {
-        margin-bottom: 40px;
-    }
-    .contact .mapwrap .map .form .date
-    {
-        margin-bottom: 40px;
-    }
-    .contact .mapwrap .map .form .time
-    {
-        margin-bottom: 40px;
-    }
-
-    .contact .mapwrap .map .form .f
-    {
-        height: 90px;
-    }
-
-    .contact .mapwrap .map .form .pesan
-    {
-        width: 19.5rem;
-        margin-bottom: 40px;
-    }
-
-    .contact .mapwrap .map
-    {
-        align-items: center;
-    } 
-    .contact .mapwrap .map .form 
-    {
-        width: 19.5rem;
-        flex-wrap: nowrap;
-    }
-
-    .contact .mapwrap .map .form label
-    {
-        font-size: 20px;
-    }
-
-
-    .contact .mapwrap .map .form .book
-    {
-        background: linear-gradient(96.41deg, #E60000 0%, #E85300 100%);
-        border-radius: 32px;
-        width: 19.5rem;
-        height: 3rem;
-    }
-    
-    .contact .mapwrap .map .form .book:hover
-    {
-        width: 19.5rem;
-    }
-    .contact .mapwrap .map .form .book .iconify
-    {
-        font-size: 24px;
-        position: relative;
-        bottom: 1px;
-        margin-right: 8px;
-    }
-    .contact .mapwrap .map .form .book a span
-    {
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        color: #FFFFFF;
-    }
-
-
-
-
-
-/* contact2 */
-.contact .tactwrap .tact #silahkan
-{
-    font-family: 'IBM Plex Sans';
+  /* contact2 */
+  .contact .tactwrap .tact #silahkan {
+    font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
     line-height: 120%;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-bottom: 64px;
     width: 52.5rem;
-}
+  }
 
-.contact .gcontact-wrap .gcontact2
-{
+  .contact .gcontact-wrap .gcontact2 {
     display: flex;
     justify-content: center;
-}
-.contact .gcontact-wrap .gcontact2 iframe
-{
+  }
+  .contact .gcontact-wrap .gcontact2 iframe {
     height: 20.313rem;
     border-radius: 24px;
     width: 19.5rem;
     margin-bottom: 48px;
     margin-top: 120px;
-}
-.contact .mapwrap .map .loc img
-{
+  }
+  .contact .mapwrap .map .loc img {
     width: 19.5rem;
     height: 22.813rem;
     margin-right: 0px;
     margin-bottom: 32px;
-}
+  }
 
-.contact .mapwrap .map .form .book2
-{
-    background: linear-gradient(96.41deg, #E60000 0%, #E85300 100%);
+  .contact .mapwrap .map .form .book2 {
+    background: linear-gradient(96.41deg, #e60000 0%, #e85300 100%);
     border-radius: 32px;
     width: 19.5rem;
     height: 3.75rem;
     transition: 0.5s;
-}
+  }
 
-.contact .mapwrap .map .form .book2:hover
-{
+  .contact .mapwrap .map .form .book2:hover {
     width: 19.5rem;
-}
+  }
 
-.contact .mapwrap .map .form .book2 .iconify
-{
+  .contact .mapwrap .map .form .book2 .iconify {
     font-size: 24px;
     position: relative;
     bottom: 2px;
     margin-right: 8px;
-}
-.contact .mapwrap .map .form .book2 a span
-{
-    font-family: 'Open Sans';
+  }
+  .contact .mapwrap .map .form .book2 a span {
+    font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
-    color: #FFFFFF;
-}
-/* contact2 */
+    color: #ffffff;
+  }
+  /* contact2 */
 }
