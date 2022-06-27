@@ -176,7 +176,7 @@
   .chat-popup {
     display: block;
     position: fixed;
-    bottom: 18px;
+    bottom: 0px;
     right: 0px;
     z-index: 9;
     transition: 0.5s;
@@ -186,7 +186,7 @@
   .form-container {
     border-radius: 0px;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     border: 1px solid black;
     /* padding: 10px; */
     background-color: white;
@@ -234,7 +234,7 @@
   .form-container {
     border-radius: 0px;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     border: 1px solid black;
     /* padding: 10px; */
     background-color: white;
