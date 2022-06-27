@@ -139,8 +139,8 @@
 
   .header .headermobile .wrapwelcome .welcome {
     width: 19.5rem;
-    position: absolute;
-    bottom: 350px;
+    position: relative;
+    bottom: 300px;
   }
 
   .header .headermobile .wrapwelcome .welcome h1 {
@@ -163,10 +163,11 @@
 
   .header .headermobile .gambarbawah {
     position: relative;
-    bottom: 90px;
+    bottom: 250px;
   }
   .header .headermobile .gambarbawah {
     width: 19.5rem;
+    height: 250px;
   }
 
   .header .headermobile .gambarbawah h3 {
@@ -195,7 +196,10 @@
     border-radius: 32px;
     margin-top: 32px;
   }
-
+  .header .headermobile .gambarbawah .learnm a
+  {
+    text-decoration: none;
+  }
   .header .headermobile .gambarbawah .learnm .iconify {
     font-size: 19px;
     position: relative;
