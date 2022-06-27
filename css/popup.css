@@ -19,7 +19,7 @@
 .chat-popup {
   display: block;
   position: fixed;
-  bottom: 170px;
+  bottom: 120px;
   right: 40px;
   z-index: 9;
   transition: 0.5s;
@@ -176,7 +176,7 @@
   .chat-popup {
     display: block;
     position: fixed;
-    bottom: 278px;
+    bottom: 18px;
     right: 0px;
     z-index: 9;
     transition: 0.5s;
