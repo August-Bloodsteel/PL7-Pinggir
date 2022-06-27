@@ -18,7 +18,7 @@ h1 {
 }
 
 .blog_wrap .title_blog2 h1 {
-  font-family: "IBM Plex Sans";
+  font-family: "I  Plex Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 4.5rem;
@@ -146,6 +146,10 @@ h1 {
 
   .btn_blog .blogspot:hover {
     padding: 0.75rem 1.25rem;
+  }
+  .blogmenu_wrap .bm_content
+  {
+    width: 19.5rem;
   }
 }
 
