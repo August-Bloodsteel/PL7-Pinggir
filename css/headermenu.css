@@ -7,7 +7,7 @@
   );
   /* margin-bottom: 60px; */
 }
-
+ 
 .headermenu .titwrap h1 {
   font-family: "Pacifico";
   font-style: normal;
@@ -153,7 +153,7 @@
     width: 19.5rem;
   }
   .headermenu .titwrap .tit h1 {
-    margin-top: 64px;
+    margin-top: 120px;
   }
   .headermenu .titwrap .tit h2 {
     font-size: 40px;
